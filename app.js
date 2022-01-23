@@ -1,13 +1,13 @@
 const loginForm = document.getElementById("login-form");
 const loginInput = loginForm.querySelector("input");
-const loginButton = loginForm.querySelector("button");
 
-// same as 3 line above
+// same as line above
 // const loginInput = document.querySelector('#login-form input');
-// const loginButton = document.querySelector('#login-form button');
 
-function onLoginBtnClick() {
-  console.log("Hello", loginInput.value);
+function onLoginSubmit(event) {
+  event.preventDefault(); // 브라우저가 기본 동작을 실행하지 못하게 막기
+  // event object는 preventDefault함수를 기본적으로 갖고 있음
+  console.log(event);
 }
 
-loginButton.addEventListener("click", onLoginBtnClick);
+loginForm.addEventListener("submit", onLoginSubmit);
