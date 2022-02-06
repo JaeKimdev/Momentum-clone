@@ -9,23 +9,30 @@
 </head>
 
 <body>
-    <h2 id="clock">00:00:00</h2>
+    <div class="time-wrapper">
+        <div class="time_date">
+            <h2 id="date">0000. 00. 00</h2>
+        </div>
+        <div class="time_clock">
+            <h1 id="clock">00:00:00</h1>
+        </div>
+    </div>
     <form class="hidden" id="login-form">
         <input class="login-form_input" required maxlength="15" type="text" placeholder="What is your name?" />
-        <input type="submit" value="Log In" />
     </form>
     <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    <form class="todo-form">
+        <input class="todo_input" type="text" placeholder="Write a To Do & Enter" required />
     </form>
-    <ul id="todo-list"></ul>
+    <ul class="todo-list"></ul>
     <div id="quote">
-        <span></span>
-        <span></span>
+        <span id="quote_quote"></span>
+        <span id="quote_author"></span>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <div class="weather">
+        <i class="fas fa-map-marker-alt weather_icon"></i>
+        <span class="weather_city"></span>
+        <span class="weather_info"></span>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>

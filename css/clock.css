@@ -1,0 +1,27 @@
+.time-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time_date,
+.time_clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33vw;
+}
+#clockTitle,
+#date {
+  text-shadow: 1px 1px 5px grey;
+  font-size: 180px;
+  font-weight: 600;
+  color: white;
+}
+#date {
+  font-size: 40px;
+}
+#clockTitle {
+  margin-bottom: 15px;
+}

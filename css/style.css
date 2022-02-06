@@ -1,3 +1,5 @@
+@import "normalize.css";
+@import "clock.css";
 @import "login.css";
 @import "todo.css";
 
@@ -48,10 +50,24 @@ body {
   margin-bottom: 20px;
 }
 
-#weather {
+.weather {
   position: fixed;
   right: 12px;
   top: 10px;
   font-style: italic;
   font-size: 0.9em;
+}
+.weather_city {
+  font-size: 1.3em;
+  margin-right: 5px;
+}
+.weather_icon {
+  font-size: 0.9em;
+  margin-right: 4px;
+}
+
+.clock {
+  font-size: 7em;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
