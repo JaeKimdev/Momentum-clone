@@ -17,4 +17,4 @@ Momentum: https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpcif
 6. Randomly import quotes
 
 ## GitHub Page
-The site is published at https://mene79.github.io/Momentum-clone/
+The site is published at https://JaeKimdev.github.io/Momentum-clone/
